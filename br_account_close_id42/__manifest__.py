@@ -3,17 +3,24 @@
 
 
 {  # pylint: disable=C8101,C8103
-    'name': 'Tax Accounting',
+    'name': 'Tax Accounting - ID42',
     'summary': """Executes a period tax computation
     - Maintained by Trustcode""",
     'description': """Executes a monthly tax accouting""",
     'version': '12.0.1.0.0',
     'category': 'Localization',
-    'author': 'Trustcode',
+    'author': [
+        'Trustcode',
+        'ID42 Sistemas',
+    ],
     'license': 'AGPL-3',
-    'website': 'http://www.trustcode.com.br',
+    'website': [
+        'http://www.trustcode.com.br',
+        'http://www.id42.com.br',
+    ],
     'contributors': [
         'Danimar Ribeiro <danimaribeiro@gmail.com>',
+        'Marcel Savegnago <marcel.savegnago@gmail.com>',
     ],
     'depends': [
         'br_account_voucher', 'br_account'
