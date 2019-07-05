@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="project_form" model="ir.ui.view">
+        <field name="name">project_form_favorite_user</field>
+        <field name="model">project.project</field>
+        <field name="inherit_id" ref="project.edit_project"/>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <xpath expr="//page[@name='settings']" position="after">
+                <page string="Favorite Users">
+                    <field name="favorite_user_ids"
+                           domain="[('id', 'not in', favorite_user_ids)]">
+                        <tree>
+                            <field name="name"/>
+                        </tree>
+                    </field>
+                </page>
+            </xpath>
+        </field>
+    </record>
+</odoo>
