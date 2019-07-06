@@ -9,15 +9,9 @@
     'description': """Executes a monthly tax accouting""",
     'version': '12.0.1.0.0',
     'category': 'Localization',
-    'author': [
-        'Trustcode',
-        'ID42 Sistemas',
-    ],
+    'author': 'Trustcode',
     'license': 'AGPL-3',
-    'website': [
-        'http://www.trustcode.com.br',
-        'http://www.id42.com.br',
-    ],
+    'website': 'http://www.trustcode.com.br',
     'contributors': [
         'Danimar Ribeiro <danimaribeiro@gmail.com>',
         'Marcel Savegnago <marcel.savegnago@gmail.com>',
